@@ -62,7 +62,7 @@ console.log(moment().format("hh:mm A"));
 console.log(arrival);
 console.log(moment().format("X"));
 
-$("#trainSchedule > tbody").append("<tr><td>" + fireName + "</td><td>" + fireDestination + "</td><td>" + arrival + "</td><td>" + minutes + "</td></tr>");
+$("#trainSchedule > tbody").append("<tr><td>" + fireName + "</td><td>" + fireDestination + "</td><td>" + firefrqInput + "</td><td>" + arrival + "</td><td>" + minutes + "</td></tr>");
 
 
 });
